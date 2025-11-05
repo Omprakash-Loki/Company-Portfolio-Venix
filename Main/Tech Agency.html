@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Agency</title>
+<style>
+body{margin:0;font-family:'Poppins',sans-serif;background:#0e0e10;color:#eee;}
+header{text-align:center;padding:100px 20px;background:linear-gradient(135deg,#4a00e0,#8e2de2);}
+section{padding:60px 20px;max-width:1000px;margin:auto;text-align:center;}
+.cards{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;}
+.card{background:#1a1a1d;padding:30px;border-radius:15px;width:280px;transition:0.3s;perspective:1000px;}
+.card:hover{transform:rotateY(10deg) scale(1.05);box-shadow:0 0 30px rgba(142,45,226,0.3);}
+button{margin-top:20px;background:#8e2de2;border:none;color:white;padding:10px 25px;border-radius:5px;cursor:pointer;}
+button:hover{background:#4a00e0;}
+</style>
+</head>
+<body>
+<header>
+  <h1>NextGen Tech Agency</h1>
+  <p>We Build The Future</p>
+</header>
+<section>
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>AI Solutions</h3>
+      <p>Empower your business with intelligent tools.</p>
+      <a href="https://www.instagram.com/gurioeditx_19/" style="color: white;">Gurudev S</a>
+    </div>
+    <div class="card">
+      <h3>Web Development</h3>
+      <p>Modern, scalable, and stunning websites.</p>
+      <a href="https://www.instagram.com/itz__sriixu__08/" style="color: white;">Sri Ram Kumar S</a>
+    </div>
+    <div class="card">
+      <h3>Brand Strategy</h3>
+      <p>Make your brand unforgettable.</p>
+      <a href="https://www.instagram.com/loki_james_cummins_30/" style="color: white;">Omprakash S</a>
+    </div>
+  </div>
+  <button onclick="scrollToTop()">Back to Top</button>
+</section>
+<script>
+function scrollToTop(){window.scrollTo({top:0,behavior:'smooth'});}
+</script>
+</body>
+</html>

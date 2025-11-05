@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #0e0e10;
+  color: #eee;
+}
+
+.hero {
+  background: linear-gradient(135deg, #7f00ff, #e100ff);
+  text-align: center;
+  padding: 80px 20px;
+  color: white;
+  animation: fadeIn 1.5s ease;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.projects {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: #1a1a1d;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 25px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  border-color: #e100ff;
+  box-shadow: 0 10px 30px rgba(225,0,255,0.3);
+}
+
+footer {
+  background: #111;
+  color: #888;
+  text-align: center;
+  padding: 20px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
