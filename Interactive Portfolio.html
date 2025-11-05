@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio</title>
+<style>
+body {
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:#0d0d0f;
+  color:#eee;
+  scroll-behavior:smooth;
+}
+header {
+  text-align:center;
+  padding:100px 20px;
+  background:linear-gradient(135deg,#7f00ff,#e100ff);
+  color:white;
+}
+nav {
+  position:fixed;
+  top:0; width:100%;
+  background:rgba(0,0,0,0.7);
+  display:flex; justify-content:center;
+  gap:30px; padding:15px;
+  backdrop-filter:blur(10px);
+}
+nav a { color:white; text-decoration:none; font-weight:bold; transition:color 0.3s; }
+nav a:hover { color:#e100ff; }
+
+section { padding:80px 20px; max-width:900px; margin:auto; }
+.project-card {
+  background:#1a1a1d;
+  margin:20px 0; padding:20px;
+  border-radius:10px;
+  transition:0.3s; border:1px solid #333;
+}
+.project-card:hover {
+  transform:scale(1.02);
+  border-color:#e100ff;
+}
+</style>
+</head>
+<body>
+<nav>
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+<header>
+  <h1>John Doe</h1>
+  <p>Creative Web Developer</p>
+</header>
+<section id="about">
+  <h2>About Me</h2>
+  <p>I create beautiful and functional websites using clean HTML, CSS, and JavaScript.</p>
+</section>
+<section id="projects">
+  <h2>Featured Work</h2>
+  <div class="project-card" >
+    ✨ Portfolio Showcase
+    <a href="index.html">Click Here->></a>
+  </div>
+  <div class="project-card" >
+    🚀 Interactive Landing Page
+    <a href="Startup Landing Page.html">Click Here->></a>
+  </div>
+  <div class="project-card" >
+    📸 Photography Gallery
+    <a href="Photography Gallery (Interactive Lightbox).html">Click Here->></a>
+  </div>
+</section>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <P>Phone: <a href="callto:9003107609" style="color:peachpuff;">9003107609</a></P>
+  <p>Email: <a href="mailto:k29768238@gmail.com" style="color:#e100ff;">k29768238@gmail.com</a></p>
+</section>
+</body>
+</html>

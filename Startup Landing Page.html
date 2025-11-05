@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Startup Landing</title>
+<style>
+body {
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:#fff;
+  color:#222;
+  overflow-x:hidden;
+}
+.hero {
+  height:100vh;
+  background:linear-gradient(135deg,#00c6ff,#0072ff);
+  color:white; display:flex; flex-direction:column;
+  align-items:center; justify-content:center;
+  text-align:center;
+  animation:fadeIn 1.5s ease;
+}
+button {
+  margin-top:20px;
+  padding:12px 25px;
+  font-size:1.1rem;
+  border:none; border-radius:5px;
+  background:white; color:#0072ff;
+  cursor:pointer;
+  transition:all 0.3s;
+}
+button:hover {
+  background:#0072ff; color:white;
+  transform:scale(1.05);
+}
+.features {
+  display:flex; flex-wrap:wrap; justify-content:center;
+  padding:50px 20px; gap:20px;
+}
+.card {
+  width:250px; padding:25px;
+  background:#f9f9f9; border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  text-align:center; transition:0.3s;
+}
+.card:hover { transform:translateY(-8px); }
+@keyframes fadeIn { from{opacity:0;} to{opacity:1;} }
+</style>
+</head>
+<body>
+<div class="hero">
+  <h1>Launch Your Startup</h1>
+  <p>Fast, flexible, and beautiful HTML template.</p>
+  <button onclick="window.open('https://www.instagram.com/venix_pvt_ltd/', '_blank')"
+>Get Started</button>
+</div>
+<div class="features">
+  <div class="card"><h3>⚡ Fast</h3><p>Optimized for performance.</p></div>
+  <div class="card"><h3>🎨 Beautiful</h3><p>Modern design language.</p></div>
+  <div class="card"><h3>🔒 Secure</h3><p>Built with best practices.</p></div>
+</div>
+</body>
+</html>
